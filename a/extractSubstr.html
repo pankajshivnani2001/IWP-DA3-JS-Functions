@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extract Substring</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+    <nav>
+        <a href="../a/extractSubstr.html">Extract Substring</a>
+        <a href="../b/searchAndReplace.html">Search And Replace</a>
+        <a href="../c/patternMatching.html">Pattern Matching</a>
+        <a href="../d/reverseArray.html">Reverse Array</a>
+        <a href="../e/dateDiff.html">Date Difference</a>
+    </nav>
+    
+    <h1>Extract Substr</h1>
+    <div class="mainContainer">
+        <span>Enter the Text</span>
+        <input type="text" required id="text" name="text">
+        <br>
+        <span>Enter The Start Index(Inclusive)</span>
+        <input type="number" name="startIdx" id="startIdx">
+        <br>
+        <span>Enter The End Index(Exclusive)</span>
+        <input type="number" name="endIdx" id="endIdx">
+        <br>
+        <button onclick="extractSubstr()">Extract Substring</button><br>
+    </div>
+
+    <div class="textareaContainer">
+        <textarea name="result" id="result" readonly></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

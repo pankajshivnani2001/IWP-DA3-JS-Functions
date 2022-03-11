@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Helvetica;
+  background-color: #282828;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+.mainContainer {
+  background-color: rgb(195, 248, 230);
+  border-radius: 50px;
+  text-align: center;
+  margin: 50px auto;
+  padding: 15px;
+  width: 75%;
+}
+
+.mainContainer span {
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  display: block;
+  margin-top: 10px;
+}
+
+.mainContainer input {
+  width: 30%;
+  height: 25px;
+  font-size: 20px;
+  margin: 5px;
+  padding: 2px;
+}
+
+.mainContainer button {
+  background: none;
+  border: 1.5px solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.mainContainer button:hover {
+  cursor: pointer;
+  background-color: rgb(209, 255, 255);
+}
+
+.textareaContainer {
+  text-align: center;
+}
+
+.textareaContainer textarea {
+  background-color: lightpink;
+  width: 45%;
+  border-radius: 25px;
+  font-size: 20px;
+  height: 150px;
+  padding: 10px;
+}
+
+.textareaContainer #result {
+  background-color: lightpink;
+  width: 45%;
+  border-radius: 25px;
+  font-size: 20px;
+  height: 150px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 10px;
+  background-color: aliceblue;
+  font-size: 21px;
+}
+
+nav a {
+  margin: 3px 7px;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+nav a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+div#mark {
+  font-weight: bold;
+  display: inline;
+}

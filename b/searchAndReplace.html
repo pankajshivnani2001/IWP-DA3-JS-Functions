@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search and Replace</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav>
+        <a href="../a/extractSubstr.html">Extract Substring</a>
+        <a href="../b/searchAndReplace.html">Search And Replace</a>
+        <a href="../c/patternMatching.html">Pattern Matching</a>
+        <a href="../d/reverseArray.html">Reverse Array</a>
+        <a href="../e/dateDiff.html">Date Difference</a>
+    </nav>
+    <h1>Search and Replace</h1>
+
+    <div class="mainContainer">
+        
+        <span>Enter the Text</span>
+        <input type="text" name="text" id="text">
+        <br>
+        <span>Enter the String to Replace</span>
+        <input type="text" name="textToReplace" id="textToReplace">
+        <br>
+        <span>Enter the Replacement String</span>
+        <input type="text" name="replacementStr" id="replacementStr">
+        <br>
+        <span>Replace First Occurence or All Occurences?</span>
+        <input type="radio" style="width: 3%; height: 15px;" name="firstOrAll" id="first" value="first"><span style="display: inline;">Only First Occurence</span>
+        <input type="radio" style="width: 3%; height: 15px;" name="firstOrAll" id="all" value="all"><span style="display: inline;">All Occurences</span>
+        <br>
+        <button onclick="replaceSubstr()">Replace</button>
+        <br>
+    </div>
+
+    <div class="textareaContainer">
+        <textarea name="result" id="result" cols="30" rows="10" readonly></textarea>
+    </div>  
+
+    <script src="script.js"></script>
+</body>
+</html>
